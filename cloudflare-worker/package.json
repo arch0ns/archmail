@@ -1,0 +1,21 @@
+{
+  "name": "anne-tmail-worker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloudflare Email Worker: catch-all parser + uploader ke Supabase",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit",
+    "tail": "wrangler tail"
+  },
+  "dependencies": {
+    "postal-mime": "^2.4.3"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240909.0",
+    "typescript": "^5.6.2",
+    "wrangler": "^3.78.12"
+  }
+}

@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-surface text-slate-100 antialiased;
+  background-image: radial-gradient(circle at 20% 0%, rgba(79, 140, 255, 0.12), transparent 45%),
+    radial-gradient(circle at 90% 10%, rgba(122, 168, 255, 0.08), transparent 40%);
+  background-attachment: fixed;
+}
+
+/* Scrollbar halus */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #22304f transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #22304f;
+  border-radius: 9999px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Fokus yang jelas untuk aksesibilitas */
+:focus-visible {
+  outline: 2px solid #4f8cff;
+  outline-offset: 2px;
+}
