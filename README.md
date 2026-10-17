@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ANNE TMAIL
 
 **Secure Real-Time Temporary Email** — inbox sementara dengan masa aktif 30 menit, real-time via Supabase Realtime, keamanan berlapis (anti-IDOR, XSS sanitization, sandboxed rendering, rate limit), serta lampiran privat via Signed URL.
@@ -233,3 +234,6 @@ ArchTempMail/
         └── types/
             └── index.ts
 ```
+=======
+# archmail
+>>>>>>> ece735db4bcaaad508cb8195957655369de93b32
